@@ -4,4 +4,6 @@ namespace NavGame.Core
 {
     // CHARACTER EVENTS
     public delegate void OnAttackHitEvent(Vector3 position);
+    public delegate void OnHealthChangedEvent(int maxHealth, int currentHealt);
+    public delegate void OnDiedEvent();
 }
