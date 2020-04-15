@@ -834,6 +834,7 @@ MonoBehaviour:
   angularSpeed: 6
   contactRadius: 2.22
   currentHealth: 0
+  damageTransform: {fileID: 0}
   defenseStats:
     maxHealth: 100
     armor: 1
@@ -1373,6 +1374,7 @@ MonoBehaviour:
   angularSpeed: 6
   contactRadius: 0.5
   currentHealth: 0
+  damageTransform: {fileID: 0}
   defenseStats:
     maxHealth: 100
     armor: 1
