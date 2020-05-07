@@ -852,7 +852,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.99215686, b: 0.41960788, a: 0.4745098}
+  m_Color: {r: 0.41960788, g: 1, b: 0.85950506, a: 0.4745098}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -862,7 +862,7 @@ MonoBehaviour:
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
-  m_FillAmount: 0
+  m_FillAmount: 0.402
   m_FillClockwise: 0
   m_FillOrigin: 2
   m_UseSpriteMesh: 0
@@ -1167,6 +1167,7 @@ GameObject:
   - component: {fileID: 601863841}
   - component: {fileID: 601863840}
   - component: {fileID: 601863842}
+  - component: {fileID: 601863843}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -1235,6 +1236,22 @@ MonoBehaviour:
   badWaves: 3
   waitTimeFirstWave: 2
   waitTmeBetweenWaves: 4
+--- !u!114 &601863843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 601863839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed3b4c36de1939d42807706bf86bbfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cooldownObjects:
+  - {fileID: 491986564}
+  - {fileID: 1224976319}
+  - {fileID: 2104780964}
 --- !u!1 &663751416
 GameObject:
   m_ObjectHideFlags: 0
@@ -1873,7 +1890,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.99215686, b: 0.41960788, a: 0.4745098}
+  m_Color: {r: 0.42352942, g: 1, b: 0.8627451, a: 0.4745098}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1883,7 +1900,7 @@ MonoBehaviour:
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
-  m_FillAmount: 0
+  m_FillAmount: 0.402
   m_FillClockwise: 0
   m_FillOrigin: 2
   m_UseSpriteMesh: 0
@@ -2606,7 +2623,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.99215686, b: 0.41960788, a: 0.4745098}
+  m_Color: {r: 0.42352942, g: 1, b: 0.8627451, a: 0.4745098}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2616,7 +2633,7 @@ MonoBehaviour:
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
-  m_FillAmount: 0
+  m_FillAmount: 0.402
   m_FillClockwise: 0
   m_FillOrigin: 2
   m_UseSpriteMesh: 0
