@@ -221,8 +221,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 56.500004, y: -44.99}
-  m_SizeDelta: {x: 25, y: 34.02}
+  m_AnchoredPosition: {x: 44.085026, y: -40.89}
+  m_SizeDelta: {x: 49.83, y: 42.22}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &129032220
 MonoBehaviour:
@@ -244,7 +244,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 28
+    m_FontSize: 25
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
@@ -255,7 +255,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: y
+  m_Text: x
 --- !u!222 &129032221
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -429,8 +429,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 56.500004, y: -44.99}
-  m_SizeDelta: {x: 25, y: 34.02}
+  m_AnchoredPosition: {x: 43.95, y: -38.02}
+  m_SizeDelta: {x: 50.1, y: 47.96}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &276620831
 MonoBehaviour:
@@ -452,7 +452,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 28
+    m_FontSize: 25
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
@@ -1252,6 +1252,10 @@ MonoBehaviour:
   - {fileID: 491986564}
   - {fileID: 1224976319}
   - {fileID: 2104780964}
+  actionsCost:
+  - {fileID: 276620831}
+  - {fileID: 129032220}
+  - {fileID: 1448546941}
 --- !u!1 &663751416
 GameObject:
   m_ObjectHideFlags: 0
@@ -2045,8 +2049,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 56.500004, y: -44.99}
-  m_SizeDelta: {x: 25, y: 34.02}
+  m_AnchoredPosition: {x: 45.98, y: -37.55}
+  m_SizeDelta: {x: 46.04, y: 48.91}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1448546941
 MonoBehaviour:
@@ -2068,7 +2072,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 28
+    m_FontSize: 25
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
@@ -2079,7 +2083,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: z
+  m_Text: x
 --- !u!222 &1448546942
 CanvasRenderer:
   m_ObjectHideFlags: 0
