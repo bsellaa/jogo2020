@@ -1229,6 +1229,7 @@ MonoBehaviour:
       type: 3}
     waitTime: 10
     coolDown: 0
+  errorSound: error
   badSpawn:
   - {fileID: 139553923}
   badPrefab: {fileID: 2516223687501199897, guid: 3e61939bfe1f75747b36dec45b878591,
