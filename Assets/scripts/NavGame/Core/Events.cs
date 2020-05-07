@@ -9,4 +9,8 @@ namespace NavGame.Core
     public delegate void OnDamageTakenEvent(Vector3 strikePoint, int amount);
     public delegate void OnHealthChangedEvent(int maxHealth, int currentHealt);
     public delegate void OnDiedEvent();
+
+    //LEVEL EVENTS
+    public delegate void OnActionSelectEvent(int actionIndex);
+    public delegate void OnActionCancelEvent(int actionIndex);
 }
