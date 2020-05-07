@@ -1056,8 +1056,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 1903269029377747252, guid: 9acfb5baa2e529643af43916ce69cdf3, type: 3}
-  firstDelay: 5
-  delay: 10
+  firstDelay: 3
+  delay: 5
   generateSound: coin-pickup
 --- !u!195 &777931719
 NavMeshAgent:
@@ -2067,6 +2067,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   angularSpeed: 6
   contactRadius: 0.5
+  range: 4
   walkableLayer:
     serializedVersion: 2
     m_Bits: 512
