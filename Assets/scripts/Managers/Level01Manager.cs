@@ -10,7 +10,7 @@ public class Level01Manager : LevelManager
     public int badWaves = 3;
     public int monstersPerWave = 2;
     public float waitTimeFirstWave = 2f;
-    public float waitTmeBetweenWaves = 4f;
+    public float waitTimeBetweenWaves = 4f;
 
     protected override void Start()
     {
@@ -48,7 +48,24 @@ public class Level01Manager : LevelManager
             {
                 onWaveUpdate(badWaves, i + 1);
             }
-            yield return new WaitForSeconds(waitTmeBetweenWaves);
+
+            if (i < badWaves - 1)
+            {
+                wait = waitTimeBetweenWaves;
+                while (wait > 0)
+                {
+                    if (onWaveCountdown != null)
+                    {
+                        onWaveCountdown(wait);
+                    }
+                    wait -= Time.deltaTime;
+                    yield return null;
+                }
+            }
+        }
+        if (onWaveCountdown != null)
+        {
+            onWaveCountdown(0);
         }
 
     }
