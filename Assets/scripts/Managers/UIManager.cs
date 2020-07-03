@@ -8,6 +8,7 @@ public class UIManager : MonoBehaviour
 {
     public GameObject errorPanel;
     public GameObject defeatPanel;
+    public GameObject victoryPanel;
 
     public Text coinText;
     public Text errorText;
@@ -31,6 +32,7 @@ public class UIManager : MonoBehaviour
         LevelManager.instance.onWaveUpdate += OnWaveUpdate;
         LevelManager.instance.onWaveCountdown += OnWaveCountdown;
         LevelManager.instance.onDefeat += OnDefeat;
+        LevelManager.instance.onVictory += OnVictory;
     }
 
     void Start()
@@ -93,6 +95,11 @@ public class UIManager : MonoBehaviour
     {
         LevelManager.instance.Pause();
         defeatPanel.SetActive(true);
+    }
+     void OnVictory()
+    {
+        LevelManager.instance.Pause();
+        victoryPanel.SetActive(true);
     }
     
     public void OnBtReloadClick()
